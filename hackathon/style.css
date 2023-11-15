@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  background-color: #e2ceba;
+}
+.header {
+  text-align: center;
+  background: #bf8f5e;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 7%;
+  height: 52%;
+  size: 50%;
+  margin-top: 10px;
+  margin-left: 30px;
+  transform: rotate(-10deg);
+}
+
+.title {
+  margin: 0px;
+  padding-top: 20px;
+  font-family: 'Alfa Slab One';
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 4px #eac29a;
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+
+.btndiv {}
+
+.djbtn {
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: 'Quicksand';
+  font-size: 15px;
+  background-color: rgb(190, 157, 124);
+  border-color: #be9d7c;
+  border-style: ridge;
+  color: #e4d4c8;
+}
+
+.djbtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.outputsection {
+  width: 80%;
+  background-color: #eac29a;
+  border-color: #bf8f5e;
+  border-style: groove;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 5px;
+  box-shadow: 7px 6px #eac29a;
+  border-weight: 10px;
+}
+
+.djoutput {
+  font-family: 'Quicksand';
+  font-size: 15px;
+  color: #3a2306;
+  text-shadow: 2px 2px 4px white;
+}
